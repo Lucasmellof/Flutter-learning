@@ -49,7 +49,7 @@ class MyApp extends StatelessWidget {
         children: [
           stars,
           const Text(
-            "170 ratings",
+            "190 ratings",
             style: TextStyle(
                 color: Colors.black,
                 fontWeight: FontWeight.w800,
@@ -115,7 +115,7 @@ class MyApp extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text("Pavlova"),
+        title: const Text("Pavlova"),
       ),
       body: Center(
         child: Container(

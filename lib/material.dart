@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:path/path.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,14 +20,10 @@ class MyApp extends StatelessWidget {
           child: Text(
             "Helloworld",
             textDirection: TextDirection.ltr,
-            style: TextStyle(
-              fontSize: 32,
-              color: Colors.deepPurpleAccent
-            ),
+            style: TextStyle(fontSize: 32, color: Colors.deepPurpleAccent),
           ),
         ),
       ),
     );
   }
-
 }
